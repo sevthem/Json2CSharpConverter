@@ -28,25 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.inputTextBox = new System.Windows.Forms.TextBox();
             this.outputTextBox = new System.Windows.Forms.TextBox();
             this.ConvertButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // inputTextBox
-            // 
-            this.inputTextBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.inputTextBox.Location = new System.Drawing.Point(0, 0);
-            this.inputTextBox.MaxLength = 1132767;
-            this.inputTextBox.Multiline = true;
-            this.inputTextBox.Name = "inputTextBox";
-            this.inputTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.inputTextBox.Size = new System.Drawing.Size(895, 188);
-            this.inputTextBox.TabIndex = 0;
             // 
             // outputTextBox
             // 
@@ -55,13 +44,13 @@
             this.outputTextBox.Multiline = true;
             this.outputTextBox.Name = "outputTextBox";
             this.outputTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.outputTextBox.Size = new System.Drawing.Size(895, 369);
+            this.outputTextBox.Size = new System.Drawing.Size(871, 357);
             this.outputTextBox.TabIndex = 1;
             // 
             // ConvertButton
             // 
             this.ConvertButton.Dock = System.Windows.Forms.DockStyle.Right;
-            this.ConvertButton.Location = new System.Drawing.Point(820, 0);
+            this.ConvertButton.Location = new System.Drawing.Point(796, 0);
             this.ConvertButton.Name = "ConvertButton";
             this.ConvertButton.Size = new System.Drawing.Size(75, 42);
             this.ConvertButton.TabIndex = 2;
@@ -73,28 +62,40 @@
             // 
             this.panel1.Controls.Add(this.ConvertButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 369);
+            this.panel1.Location = new System.Drawing.Point(0, 357);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(895, 42);
+            this.panel1.Size = new System.Drawing.Size(871, 42);
             this.panel1.TabIndex = 3;
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.outputTextBox);
             this.panel2.Controls.Add(this.panel1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 188);
+            this.panel2.Location = new System.Drawing.Point(12, 188);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(895, 411);
+            this.panel2.Size = new System.Drawing.Size(871, 399);
             this.panel2.TabIndex = 4;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox1.Location = new System.Drawing.Point(12, 12);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(871, 158);
+            this.richTextBox1.TabIndex = 5;
+            this.richTextBox1.Text = "";
             // 
             // Json2CSharpConverter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(895, 599);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.inputTextBox);
             this.HelpButton = true;
             this.Name = "Json2CSharpConverter";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -103,17 +104,15 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox inputTextBox;
         private System.Windows.Forms.TextBox outputTextBox;
         private System.Windows.Forms.Button ConvertButton;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
