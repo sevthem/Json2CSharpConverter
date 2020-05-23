@@ -5,6 +5,7 @@ Json2CSharpConverter
 Just an application that convert a json to C# code.
 
 For example:
+```json
 {
 	"creditInfo": {
 		"account": "4230677804",
@@ -18,9 +19,9 @@ For example:
 		"branch": "0040"
 	}
 }
-
+```
 To :
-
+```csharp
 {
 	CreditInfo = new CreditInfo
 	{
@@ -36,3 +37,4 @@ To :
 		Branch = "0040"
 	}
 }
+```
