@@ -117,4 +117,202 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>{
+	"account": {
+		"number": "70251716794",
+		"numberFormated": "702/517167-94",
+		"numberNoCD": "70251716794",
+		"service": {
+			"code": 15100001,
+			"shortName": "ΚΑΤΕΥ",
+			"name": "ΕΥΡΩ ΚΑΤΑΘΕΣΕΙΣ",
+			"relatedSchemeCode": 0,
+			"extendedName": null,
+			"hasReverse": null,
+			"reverseShortName": null,
+			"schemeData": {
+				"scheme": 151,
+				"role": 0,
+				"i_clsf": 0,
+				"i_clsf0": 0,
+				"f_rev_req": null,
+				"f_norev": null
+			}
+		},
+		"branch": "080",
+		"currency": "EUR",
+		"product": "ΑΠΛΟ ΤΑΜΙΕΥΤΗΡΙΟ",
+		"category": "ΑΠΛΟ ΤΑΜΙΕΥΤΗΡΙΟ",
+		"relation": {
+			"code": 15000001,
+			"shortName": "ΚΑΤΟΧ",
+			"name": "ΚΑΤΟΧΟΣ",
+			"relatedSchemeCode": 0,
+			"extendedName": null,
+			"hasReverse": null,
+			"reverseShortName": null,
+			"schemeData": {
+				"scheme": 150,
+				"role": 0,
+				"i_clsf": 0,
+				"i_clsf0": 0,
+				"f_rev_req": null,
+				"f_norev": null
+			}
+		},
+		"order": 1,
+		"customerCode": 1257484001,
+		"isExpired": false,
+		"startTimestamp": "2010-08-06T13:17:13.885Z",
+		"endTimestamp": "9999-12-31T23:59:59.999Z",
+		"categoryCode": "1"
+	},
+	"accountRelations": {
+		"accountRelation": {
+			"customer": {
+				"customerCode": 1257484001,
+				"name": "ΛΟΥΤΑΣ ΠΑΝΑΓΙΩΤΗΣ ΠΕΤΡΟΣ",
+				"branch": {
+					"code": "0080",
+					"name": "ΟΔ. ΣΤΑΔΙΟΥ  38",
+					"controllingCenter": "57",
+					"controllingCenterDescription": "ΚΑΤΑΣΤΗΜΑ ΠΕΛΑΤΕΙΑΣ ΣΥ.ΔΙ.ΠΕΛ.",
+					"type": "06",
+					"typeDescription": "ΚΑΤΑΣΤΗΜΑ"
+				},
+				"type": "ΦΠ",
+				"activityStatus": "O",
+				"activityStatusDescription": "ΕΝΕΡΓΟΣ",
+				"completenessStatus": "K",
+				"completenessStatusDescription": "ΠΛΗΡΗ ΣΤΟΙΧΕΙΑ",
+				"dateBirth": "27/09/1962",
+				"dateEstablished": "      ",
+				"deleted": false,
+				"docNo": "ΑΖ563982",
+				"docType": "ΑΣΤΥΝΟΜΙΚΗ ΤΑΥΤΟΤΗΤΑ",
+				"nomicalForm": null,
+				"taxNo": "102948924",
+				"SSN": "06029502496",
+				"iBankUserID": null,
+				"iBankCompanyID": null,
+				"cashCardView": []
+			},
+			"type": {
+				"code": 15000001,
+				"shortName": "ΚΑΤΟΧ",
+				"name": "ΚΑΤΟΧΟΣ",
+				"relatedSchemeCode": 0,
+				"extendedName": null,
+				"hasReverse": null,
+				"reverseShortName": null,
+				"schemeData": {
+					"scheme": 150,
+					"role": 0,
+					"i_clsf": 0,
+					"i_clsf0": 0,
+					"f_rev_req": null,
+					"f_norev": null
+				}
+			},
+			"order": 1,
+			"startTimestamp": "2019-08-06T13:17:13.885Z",
+			"endTimestamp": "9999-12-31T23:59:59.999Z",
+			"isExpired": false
+		},
+		"customerAddresses": [
+			{
+				"uid": "aj4Aha3Rt9e1vP4PV77DOg==",
+				"id": 5233559599,
+				"type": {
+					"code": 2700001,
+					"shortName": "ΤΧΔΝΣ",
+					"name": "ΤΑΧΥΔΡΟΜΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+					"relatedSchemeCode": null,
+					"extendedName": null,
+					"hasReverse": null,
+					"reverseShortName": null,
+					"schemeData": null
+				},
+				"use": {
+					"code": 1500006,
+					"shortName": "ΕΝΑΛΛ",
+					"name": "ΕΝΑΛΛΑΚΤΙΚΗ",
+					"relatedSchemeCode": 0,
+					"extendedName": null,
+					"hasReverse": null,
+					"reverseShortName": null,
+					"schemeData": {
+						"scheme": 15,
+						"role": 3200006,
+						"i_clsf": 2500001,
+						"i_clsf0": 2700001,
+						"f_rev_req": null,
+						"f_norev": null
+					}
+				},
+				"duration": {
+					"primary": "X",
+					"temporary": "",
+					"seasonal": ""
+				},
+				"attentionTo": null,
+				"endDate": "9999-12-31T00:00:00.000Z",
+				"isExpired": false,
+				"startDate": "2013-02-16T00:00:00.000Z",
+				"withCare": null,
+				"simpleAddress": "ΚΑΡΚΑΒΙΤΣΑΣ 15",
+				"periodStart": null,
+				"periodEnd": null,
+				"details": {
+					"localAddress": {
+						"country": "ΕΛΛΑΔΑ",
+						"region": "ΑΘΗΝΑ",
+						"city": "ΑΘΗΝΑ",
+						"addressRoadType": null,
+						"address": "ΚΑΡΚΑΒΙΤΣΑΣ 15",
+						"addressNo": null,
+						"zip": {
+							"code": 99999001228,
+							"shortName": "Z000045",
+							"name": "ΑΘΗΝΑ",
+							"zipCode": "11141"
+						},
+						"fullAddress": "ΚΑΡΚΑΒΙΤΣΑΣ 15,,ΑΘΗΝΑ,11141,ΑΘΗΝΑ"
+					},
+					"foreignAddress": null,
+					"postOfficeAddress": null,
+					"postBoxAddress": null
+				},
+				"version": 1,
+				"creationAudit": {
+					"user": "MIGETHN@",
+					"branch": "942",
+					"workstation": "MIG1",
+					"timestamp": "2013-02-16T09:52:17.000Z"
+				},
+				"updateAudit": {
+					"user": "MIGETHN@",
+					"branch": "942",
+					"workstation": "MIG1",
+					"timestamp": "2013-02-16T09:52:17.000Z"
+				},
+				"satIndicator": false
+			}
+		],
+		"creationAudit": {
+			"user": "E88208",
+			"branch": "080",
+			"workstation": "W008000418",
+			"timestamp": "2019-08-06T13:17:13.885Z"
+		},
+		"updateAudit": {
+			"user": "E88208",
+			"branch": "080",
+			"workstation": "W008000418",
+			"timestamp": "2019-08-06T13:17:13.885Z"
+		}
+	}
+}</value>
+  </data>
 </root>

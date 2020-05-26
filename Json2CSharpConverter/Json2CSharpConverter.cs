@@ -11,6 +11,7 @@ namespace codeGenerator
         public Json2CSharpConverter()
         {
             InitializeComponent();
+            button1_Click(null, null);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -18,12 +19,6 @@ namespace codeGenerator
             outputTextBox.Text = JsonCSharpConvertion.Convert(richTextBox1.Text);
         }
 
-        private void inputTextBox_TextChanged(object sender, EventArgs e)
-        {
-            //var inputLines = inputTextBox.Text.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None).ToList();
-            //var builder = new StringBuilder();
-            //inputLines.ForEach(x => builder.AppendLine(x));
-            //inputTextBox.Text = builder.ToString();
-        }
+       
     }
 }
