@@ -12,6 +12,7 @@ namespace Json2CSharpLib
             var inputLines = input.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
             var output = new StringBuilder();
             var classNum = 0;
+            var anonumousObjects = false;
             for (int i = 0; i < inputLines.Length; i++)
             {
 
@@ -21,7 +22,14 @@ namespace Json2CSharpLib
                 {
                     if (n.Count == 1)
                     {
-                        newLine = $"{GetIntent(classNum)}{{";
+                        if (anonumousObjects && classNum == 1)
+                        {
+                            newLine = $"{GetIntent(classNum)}new Object{Environment.NewLine}{GetIntent(classNum)}{{";
+                        }
+                        else
+                        {
+                            newLine = $"{GetIntent(classNum)}{{";
+                        }                        
                     }
                     else
                     {
@@ -38,13 +46,22 @@ namespace Json2CSharpLib
                 else if (inputLines[i].Contains("["))
                 {
                     var propertyName = n[0].ClearPropertyName();
+                    if (propertyName == "[")
+                    {
+                        propertyName = "Objects";
+                        anonumousObjects = true;
+                    }
                     var leftPart = $"{propertyName}";
                     var firstLineRightPart = $"new List<{propertyName.GetClassName(inputLines,i).ToSingle()}>";
                     var classIntent = $"{Environment.NewLine}{GetIntent(classNum)}{{";
 
 
-
-                    if (inputLines[i].Contains("]"))
+                    if (n.Count == 1)
+                    {
+                        newLine = $"{GetIntent(classNum)}{leftPart} = {firstLineRightPart}{classIntent}";
+                        classNum++;
+                    }
+                    else if (inputLines[i].Contains("]"))
                     {
                         newLine = $"{GetIntent(classNum)}{leftPart} = {firstLineRightPart}()";
                     }
