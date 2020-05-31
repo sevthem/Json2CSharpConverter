@@ -16,8 +16,8 @@ namespace codeGenerator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            outputTextBox.Text = JsonCSharpConvertion.Convert(richTextBox1.Text);
-           // var oMycustomclassname = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(richTextBox1.Text);
+            outputTextBox.Text = JsonCSharpConvertion.ConvertA(richTextBox1.Text);
+          
         }
 
        
