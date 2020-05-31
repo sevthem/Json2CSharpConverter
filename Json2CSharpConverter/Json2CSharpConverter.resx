@@ -117,4 +117,1415 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>{
+    "SandboxID": "cra_account_sandbox",
+    "Users": [
+        {
+            "Username": "User1",
+            "ProviderId": "NBG.gr",
+            "Provider": "NBG"
+        },
+        {
+            "Username": "User2",
+            "ProviderId": "NBG.gr",
+            "Provider": "NBG"
+        }
+    ],
+    "Accounts": [
+        {
+            "account": {
+                "number": "08000502107",
+                "numberFormated": "080/005021-07",
+                "numberNoCD": "0800050210",
+                "service": {
+                    "code": 15100001.0,
+                    "shortName": "ΚΑΤΕΥ",
+                    "name": "ΕΥΡΩ ΚΑΤΑΘΕΣΕΙΣ",
+                    "relatedSchemeCode": 0,
+                    "extendedName": null,
+                    "hasReverse": null,
+                    "reverseShortName": null,
+                    "schemeData": {
+                        "scheme": 151,
+                        "role": 0,
+                        "i_clsf": 0,
+                        "i_clsf0": 0,
+                        "f_rev_req": null,
+                        "f_norev": null
+                    }
+                },
+                "branch": "080",
+                "currency": "EUR",
+                "product": "ΑΠΛΟ ΤΑΜΙΕΥΤΗΡΙΟ",
+                "category": "ΤΑΜΙΕΥΤΗΡΙΟ",
+                "relation": {
+                    "code": 15000001.0,
+                    "shortName": "ΚΑΤΟΧ",
+                    "name": "ΚΑΤΟΧΟΣ",
+                    "relatedSchemeCode": 0,
+                    "extendedName": null,
+                    "hasReverse": null,
+                    "reverseShortName": null,
+                    "schemeData": {
+                        "scheme": 150,
+                        "role": 0,
+                        "i_clsf": 0,
+                        "i_clsf0": 0,
+                        "f_rev_req": null,
+                        "f_norev": null
+                    }
+                },
+                "order": 1,
+                "customerCode": 1257484001.0,
+                "isExpired": false,
+                "startTimestamp": "2019-08-06T13:17:13.885Z",
+                "endTimestamp": "9999-12-31T23:59:59.999Z",
+                "categoryCode": "1"
+            },
+            "accountRelations": {
+                "accountRelation": {
+                    "customer": {
+                        "customerCode": 1257484001.0,
+                        "name": "ΛΟΥΤΑΣ ΠΑΝΑΓΙΩΤΗΣ ΠΕΤΡΟΣ",
+                        "branch": {
+                            "code": "0080",
+                            "name": "ΟΔ. ΣΤΑΔΙΟΥ  38",
+                            "controllingCenter": "57",
+                            "controllingCenterDescription": "ΚΑΤΑΣΤΗΜΑ ΠΕΛΑΤΕΙΑΣ ΣΥ.ΔΙ.ΠΕΛ.",
+                            "type": "06",
+                            "typeDescription": "ΚΑΤΑΣΤΗΜΑ"
+                        },
+                        "type": "ΦΠ",
+                        "activityStatus": "O",
+                        "activityStatusDescription": "ΕΝΕΡΓΟΣ",
+                        "completenessStatus": "K",
+                        "completenessStatusDescription": "ΠΛΗΡΗ ΣΤΟΙΧΕΙΑ",
+                        "dateBirth": "27/09/1962",
+                        "dateEstablished": "      ",
+                        "deleted": false,
+                        "docNo": "ΑΖ563982",
+                        "docType": "ΑΣΤΥΝΟΜΙΚΗ ΤΑΥΤΟΤΗΤΑ",
+                        "nomicalForm": null,
+                        "taxNo": "102948924",
+                        "SSN": "06029502496",
+                        "iBankUserID": null,
+                        "iBankCompanyID": null,
+                        "cashCardView": []
+                    },
+                    "type": {
+                        "code": 15000001.0,
+                        "shortName": "ΚΑΤΟΧ",
+                        "name": "ΚΑΤΟΧΟΣ",
+                        "relatedSchemeCode": 0,
+                        "extendedName": null,
+                        "hasReverse": null,
+                        "reverseShortName": null,
+                        "schemeData": {
+                            "scheme": 150,
+                            "role": 0,
+                            "i_clsf": 0,
+                            "i_clsf0": 0,
+                            "f_rev_req": null,
+                            "f_norev": null
+                        }
+                    },
+                    "order": 1,
+                    "startTimestamp": "2019-08-06T13:17:13.885Z",
+                    "endTimestamp": "9999-12-31T23:59:59.999Z",
+                    "isExpired": false
+                },
+                "customerAddresses": [
+                    {
+                        "uid": "aj4Aha3Rt9e1vP4PV77DOg==",
+                        "id": 5233559599.0,
+                        "type": {
+                            "code": 2700001.0,
+                            "shortName": "ΤΧΔΝΣ",
+                            "name": "ΤΑΧΥΔΡΟΜΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+                            "relatedSchemeCode": null,
+                            "extendedName": null,
+                            "hasReverse": null,
+                            "reverseShortName": null,
+                            "schemeData": null
+                        },
+                        "use": {
+                            "code": 1500003.0,
+                            "shortName": "ΕΠΙΚΝ",
+                            "name": "ΕΠΙΚΟΙΝΩΝΙΑΣ",
+                            "relatedSchemeCode": 0,
+                            "extendedName": null,
+                            "hasReverse": null,
+                            "reverseShortName": null,
+                            "schemeData": {
+                                "scheme": 15,
+                                "role": 0,
+                                "i_clsf": 0,
+                                "i_clsf0": 0,
+                                "f_rev_req": null,
+                                "f_norev": null
+                            }
+                        },
+                        "duration": {
+                            "primary": "X",
+                            "temporary": "",
+                            "seasonal": ""
+                        },
+                        "attentionTo": null,
+                        "endDate": "9999-12-31T00:00:00.000Z",
+                        "isExpired": false,
+                        "startDate": "2013-02-16T00:00:00.000Z",
+                        "withCare": null,
+                        "simpleAddress": "ΚΑΡΚΑΒΙΤΣΑΣ 15",
+                        "periodStart": null,
+                        "periodEnd": null,
+                        "details": {
+                            "localAddress": {
+                                "country": "ΕΛΛΑΔΑ",
+                                "region": "ΑΘΗΝΑ",
+                                "city": "ΑΘΗΝΑ",
+                                "addressRoadType": null,
+                                "address": "ΚΑΡΚΑΒΙΤΣΑΣ 15",
+                                "addressNo": null,
+                                "zip": {
+                                    "code": 99999001228.0,
+                                    "shortName": "Z000045",
+                                    "name": "ΑΘΗΝΑ",
+                                    "zipCode": "11141"
+                                },
+                                "fullAddress": "ΚΑΡΚΑΒΙΤΣΑΣ 15,,ΑΘΗΝΑ,11141,ΑΘΗΝΑ"
+                            },
+                            "foreignAddress": null,
+                            "postOfficeAddress": null,
+                            "postBoxAddress": null
+                        },
+                        "version": 1,
+                        "creationAudit": {
+                            "user": "MIGETHN@",
+                            "branch": "942",
+                            "workstation": "MIG1",
+                            "timestamp": "2013-02-16T09:52:17.000Z"
+                        },
+                        "updateAudit": {
+                            "user": "MIGETHN@",
+                            "branch": "942",
+                            "workstation": "MIG1",
+                            "timestamp": "2013-02-16T09:52:17.000Z"
+                        },
+                        "satIndicator": false
+                    }
+                ],
+                "creationAudit": {
+                    "user": "E88208",
+                    "branch": "080",
+                    "workstation": "W008000418",
+                    "timestamp": "2019-08-06T13:17:13.885Z"
+                },
+                "updateAudit": {
+                    "user": "E88208",
+                    "branch": "080",
+                    "workstation": "W008000418",
+                    "timestamp": "2019-08-06T13:17:13.885Z"
+                }
+            }
+        },
+        {
+            "account": {
+                "number": "08000502118",
+                "numberFormated": "080/005021-18",
+                "numberNoCD": "0800050211",
+                "service": {
+                    "code": 15100005.0,
+                    "shortName": "ECASH",
+                    "name": "ΧΡΕΩΣΤΙΚΕΣ ΚΑΡΤΕΣ",
+                    "relatedSchemeCode": 0,
+                    "extendedName": null,
+                    "hasReverse": null,
+                    "reverseShortName": null,
+                    "schemeData": {
+                        "scheme": 151,
+                        "role": 0,
+                        "i_clsf": 0,
+                        "i_clsf0": 0,
+                        "f_rev_req": null,
+                        "f_norev": null
+                    }
+                },
+                "branch": "080",
+                "currency": "EUR",
+                "product": "ΑΠΛΟ ΤΑΜΙΕΥΤΗΡΙΟ",
+                "category": "ΤΑΜΙΕΥΤΗΡΙΟ",
+                "relation": {
+                    "code": 15000001.0,
+                    "shortName": "ΚΑΤΟΧ",
+                    "name": "ΚΑΤΟΧΟΣ",
+                    "relatedSchemeCode": 0,
+                    "extendedName": null,
+                    "hasReverse": null,
+                    "reverseShortName": null,
+                    "schemeData": {
+                        "scheme": 150,
+                        "role": 0,
+                        "i_clsf": 0,
+                        "i_clsf0": 0,
+                        "f_rev_req": null,
+                        "f_norev": null
+                    }
+                },
+                "order": 1,
+                "customerCode": 1407625004.0,
+                "isExpired": false,
+                "startTimestamp": "2019-08-06T13:17:13.885Z",
+                "endTimestamp": "9999-12-31T23:59:59.999Z",
+                "categoryCode": "1"
+            },
+            "accountRelations": {
+                "accountRelation": {
+                    "customer": {
+                        "customerCode": 1407625004.0,
+                        "name": "ΣΕΒΑΣΤΙΔΗΣ ΘΕΜΙΣΤΟΚΛΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ",
+                        "branch": {
+                            "code": "0080",
+                            "name": "ΟΔ. ΣΤΑΔΙΟΥ  38",
+                            "controllingCenter": "57",
+                            "controllingCenterDescription": "ΚΑΤΑΣΤΗΜΑ ΠΕΛΑΤΕΙΑΣ ΣΥ.ΔΙ.ΠΕΛ.",
+                            "type": "06",
+                            "typeDescription": "ΚΑΤΑΣΤΗΜΑ"
+                        },
+                        "type": "ΦΠ",
+                        "activityStatus": "O",
+                        "activityStatusDescription": "ΕΝΕΡΓΟΣ",
+                        "completenessStatus": "K",
+                        "completenessStatusDescription": "ΠΛΗΡΗ ΣΤΟΙΧΕΙΑ",
+                        "dateBirth": "27/09/1962",
+                        "dateEstablished": "      ",
+                        "deleted": false,
+                        "docNo": "ΑΖ563983",
+                        "docType": "ΑΣΤΥΝΟΜΙΚΗ ΤΑΥΤΟΤΗΤΑ",
+                        "nomicalForm": null,
+                        "taxNo": "102948925",
+                        "SSN": "06029502497",
+                        "iBankUserID": null,
+                        "iBankCompanyID": null,
+                        "cashCardView": []
+                    },
+                    "type": {
+                        "code": 15000001.0,
+                        "shortName": "ΚΑΤΟΧ",
+                        "name": "ΚΑΤΟΧΟΣ",
+                        "relatedSchemeCode": 0,
+                        "extendedName": null,
+                        "hasReverse": null,
+                        "reverseShortName": null,
+                        "schemeData": {
+                            "scheme": 150,
+                            "role": 0,
+                            "i_clsf": 0,
+                            "i_clsf0": 0,
+                            "f_rev_req": null,
+                            "f_norev": null
+                        }
+                    },
+                    "order": 1,
+                    "startTimestamp": "2019-08-06T13:17:13.885Z",
+                    "endTimestamp": "9999-12-31T23:59:59.999Z",
+                    "isExpired": false
+                },
+                "customerAddresses": [
+                    {
+                        "uid": "aj4Aha3Rt9e1vP4PV77DOh==",
+                        "id": 5233559699.0,
+                        "type": {
+                            "code": 2700001.0,
+                            "shortName": "ΤΧΔΝΣ",
+                            "name": "ΤΑΧΥΔΡΟΜΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+                            "relatedSchemeCode": null,
+                            "extendedName": null,
+                            "hasReverse": null,
+                            "reverseShortName": null,
+                            "schemeData": null
+                        },
+                        "use": {
+                            "code": 1500006.0,
+                            "shortName": "ΕΝΑΛΛ",
+                            "name": "ΕΝΑΛΛΑΚΤΙΚΗ",
+                            "relatedSchemeCode": 0,
+                            "extendedName": null,
+                            "hasReverse": null,
+                            "reverseShortName": null,
+                            "schemeData": {
+                                "scheme": 15,
+                                "role": 3200006,
+                                "i_clsf": 2500001,
+                                "i_clsf0": 2700001,
+                                "f_rev_req": null,
+                                "f_norev": null
+                            }
+                        },
+                        "duration": {
+                            "primary": "X",
+                            "temporary": "",
+                            "seasonal": ""
+                        },
+                        "attentionTo": null,
+                        "endDate": "9999-12-31T00:00:00.000Z",
+                        "isExpired": false,
+                        "startDate": "2013-02-16T00:00:00.000Z",
+                        "withCare": null,
+                        "simpleAddress": "ΔΕΚΕΛΕΙΑΣ 25",
+                        "periodStart": null,
+                        "periodEnd": null,
+                        "details": {
+                            "localAddress": {
+                                "country": "ΕΛΛΑΔΑ",
+                                "region": "ΑΘΗΝΑ",
+                                "city": "ΑΘΗΝΑ",
+                                "addressRoadType": null,
+                                "address": "ΔΕΚΕΛΕΙΑΣ 25",
+                                "addressNo": null,
+                                "zip": {
+                                    "code": 99999001228.0,
+                                    "shortName": "Z000045",
+                                    "name": "ΑΘΗΝΑ",
+                                    "zipCode": "11141"
+                                },
+                                "fullAddress": "ΔΕΚΕΛΕΙΑΣ 25,,ΑΘΗΝΑ,11141,ΑΘΗΝΑ"
+                            },
+                            "foreignAddress": null,
+                            "postOfficeAddress": null,
+                            "postBoxAddress": null
+                        },
+                        "version": 1,
+                        "creationAudit": {
+                            "user": "MIGETHN@",
+                            "branch": "942",
+                            "workstation": "MIG1",
+                            "timestamp": "2013-02-16T09:52:17.000Z"
+                        },
+                        "updateAudit": {
+                            "user": "MIGETHN@",
+                            "branch": "942",
+                            "workstation": "MIG1",
+                            "timestamp": "2013-02-16T09:52:17.000Z"
+                        },
+                        "satIndicator": false
+                    }
+                ],
+                "creationAudit": {
+                    "user": "E88208",
+                    "branch": "080",
+                    "workstation": "W008000418",
+                    "timestamp": "2019-08-06T13:17:13.885Z"
+                },
+                "updateAudit": {
+                    "user": "E88208",
+                    "branch": "080",
+                    "workstation": "W008000418",
+                    "timestamp": "2019-08-06T13:17:13.885Z"
+                }
+            }
+        },
+        {
+            "account": {
+                "number": "08000502129",
+                "numberFormated": "080/005021-29",
+                "numberNoCD": "0800050212",
+                "service": {
+                    "code": 15100003.0,
+                    "shortName": "ΠΡΟΙΡ",
+                    "name": "ΠΡΟΘΕΣΜΙΑΚΕΣ (ΙΡΙΣ) ΚΑΤΑΘΕΣΕΙΣ",
+                    "relatedSchemeCode": 0,
+                    "extendedName": null,
+                    "hasReverse": null,
+                    "reverseShortName": null,
+                    "schemeData": {
+                        "scheme": 151,
+                        "role": 0,
+                        "i_clsf": 0,
+                        "i_clsf0": 0,
+                        "f_rev_req": null,
+                        "f_norev": null
+                    }
+                },
+                "branch": "080",
+                "currency": "EUR",
+                "product": "ΑΠΛΟ ΤΑΜΙΕΥΤΗΡΙΟ",
+                "category": "ΤΑΜΙΕΥΤΗΡΙΟ",
+                "relation": {
+                    "code": 15000001.0,
+                    "shortName": "ΚΑΤΟΧ",
+                    "name": "ΚΑΤΟΧΟΣ",
+                    "relatedSchemeCode": 0,
+                    "extendedName": null,
+                    "hasReverse": null,
+                    "reverseShortName": null,
+                    "schemeData": {
+                        "scheme": 150,
+                        "role": 0,
+                        "i_clsf": 0,
+                        "i_clsf0": 0,
+                        "f_rev_req": null,
+                        "f_norev": null
+                    }
+                },
+                "order": 1,
+                "customerCode": 1407625005.0,
+                "isExpired": false,
+                "startTimestamp": "2019-08-06T13:17:13.885Z",
+                "endTimestamp": "9999-12-31T23:59:59.999Z",
+                "categoryCode": "1"
+            },
+            "accountRelations": {
+                "accountRelation": {
+                    "customer": {
+                        "customerCode": 1407625005.0,
+                        "name": "ΣΕΒΑΣΤΙΔΗΣ ΠΕΡΙΚΛΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ",
+                        "branch": {
+                            "code": "0080",
+                            "name": "ΟΔ. ΣΤΑΔΙΟΥ 38",
+                            "controllingCenter": "57",
+                            "controllingCenterDescription": "ΚΑΤΑΣΤΗΜΑ ΠΕΛΑΤΕΙΑΣ ΣΥ.ΔΙ.ΠΕΛ.",
+                            "type": "06",
+                            "typeDescription": "ΚΑΤΑΣΤΗΜΑ"
+                        },
+                        "type": "ΦΠ",
+                        "activityStatus": "O",
+                        "activityStatusDescription": "ΕΝΕΡΓΟΣ",
+                        "completenessStatus": "K",
+                        "completenessStatusDescription": "ΠΛΗΡΗ ΣΤΟΙΧΕΙΑ",
+                        "dateBirth": "27/09/1962",
+                        "dateEstablished": "      ",
+                        "deleted": false,
+                        "docNo": "ΑΖ563984",
+                        "docType": "ΑΣΤΥΝΟΜΙΚΗ ΤΑΥΤΟΤΗΤΑ",
+                        "nomicalForm": null,
+                        "taxNo": "102948926",
+                        "SSN": "06029502498",
+                        "iBankUserID": null,
+                        "iBankCompanyID": null,
+                        "cashCardView": []
+                    },
+                    "type": {
+                        "code": 15000001.0,
+                        "shortName": "ΚΑΤΟΧ",
+                        "name": "ΚΑΤΟΧΟΣ",
+                        "relatedSchemeCode": 0,
+                        "extendedName": null,
+                        "hasReverse": null,
+                        "reverseShortName": null,
+                        "schemeData": {
+                            "scheme": 150,
+                            "role": 0,
+                            "i_clsf": 0,
+                            "i_clsf0": 0,
+                            "f_rev_req": null,
+                            "f_norev": null
+                        }
+                    },
+                    "order": 1,
+                    "startTimestamp": "2019-08-06T13:17:13.885Z",
+                    "endTimestamp": "9999-12-31T23:59:59.999Z",
+                    "isExpired": false
+                },
+                "customerAddresses": [
+                    {
+                        "uid": "aj4Aha3Rt9e1vP4PV77DOh==",
+                        "id": 5233559699.0,
+                        "type": {
+                            "code": 2700001.0,
+                            "shortName": "ΤΧΔΝΣ",
+                            "name": "ΤΑΧΥΔΡΟΜΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+                            "relatedSchemeCode": null,
+                            "extendedName": null,
+                            "hasReverse": null,
+                            "reverseShortName": null,
+                            "schemeData": null
+                        },
+                        "use": {
+                            "code": 1500006.0,
+                            "shortName": "ΕΝΑΛΛ",
+                            "name": "ΕΝΑΛΛΑΚΤΙΚΗ",
+                            "relatedSchemeCode": 0,
+                            "extendedName": null,
+                            "hasReverse": null,
+                            "reverseShortName": null,
+                            "schemeData": {
+                                "scheme": 15,
+                                "role": 3200006,
+                                "i_clsf": 2500001,
+                                "i_clsf0": 2700001,
+                                "f_rev_req": null,
+                                "f_norev": null
+                            }
+                        },
+                        "duration": {
+                            "primary": "X",
+                            "temporary": "",
+                            "seasonal": ""
+                        },
+                        "attentionTo": null,
+                        "endDate": "9999-12-31T00:00:00.000Z",
+                        "isExpired": false,
+                        "startDate": "2013-02-16T00:00:00.000Z",
+                        "withCare": null,
+                        "simpleAddress": "ΔΕΚΕΛΕΙΑΣ 25",
+                        "periodStart": null,
+                        "periodEnd": null,
+                        "details": {
+                            "localAddress": {
+                                "country": "ΕΛΛΑΔΑ",
+                                "region": "ΑΘΗΝΑ",
+                                "city": "ΑΘΗΝΑ",
+                                "addressRoadType": null,
+                                "address": "ΔΕΚΕΛΕΙΑΣ 26",
+                                "addressNo": null,
+                                "zip": {
+                                    "code": 99999001228.0,
+                                    "shortName": "Z000045",
+                                    "name": "ΑΘΗΝΑ",
+                                    "zipCode": "11141"
+                                },
+                                "fullAddress": "ΔΕΚΕΛΕΙΑΣ 26,,ΑΘΗΝΑ,11141,ΑΘΗΝΑ"
+                            },
+                            "foreignAddress": null,
+                            "postOfficeAddress": null,
+                            "postBoxAddress": null
+                        },
+                        "version": 1,
+                        "creationAudit": {
+                            "user": "MIGETHN@",
+                            "branch": "942",
+                            "workstation": "MIG1",
+                            "timestamp": "2013-02-16T09:52:17.000Z"
+                        },
+                        "updateAudit": {
+                            "user": "MIGETHN@",
+                            "branch": "942",
+                            "workstation": "MIG1",
+                            "timestamp": "2013-02-16T09:52:17.000Z"
+                        },
+                        "satIndicator": false
+                    }
+                ],
+                "creationAudit": {
+                    "user": "E88208",
+                    "branch": "080",
+                    "workstation": "W008000418",
+                    "timestamp": "2019-08-06T13:17:13.885Z"
+                },
+                "updateAudit": {
+                    "user": "E88208",
+                    "branch": "080",
+                    "workstation": "W008000418",
+                    "timestamp": "2019-08-06T13:17:13.885Z"
+                }
+            }
+        },
+        {
+            "account": {
+                "number": "08000502130",
+                "numberFormated": "080/005021-30",
+                "numberNoCD": "0800050213",
+                "service": {
+                    "code": 15100007.0,
+                    "shortName": "ΠΙΣΚΑ",
+                    "name": "ΠΙΣΤΩΤΙΚΕΣ ΚΑΡΤΕΣ",
+                    "relatedSchemeCode": 0,
+                    "extendedName": null,
+                    "hasReverse": null,
+                    "reverseShortName": null,
+                    "schemeData": {
+                        "scheme": 151,
+                        "role": 0,
+                        "i_clsf": 0,
+                        "i_clsf0": 0,
+                        "f_rev_req": null,
+                        "f_norev": null
+                    }
+                },
+                "branch": "080",
+                "currency": "EUR",
+                "product": "ΑΠΛΟ ΤΑΜΙΕΥΤΗΡΙΟ",
+                "category": "ΤΑΜΙΕΥΤΗΡΙΟ",
+                "relation": {
+                    "code": 15000001.0,
+                    "shortName": "ΚΑΤΟΧ",
+                    "name": "ΚΑΤΟΧΟΣ",
+                    "relatedSchemeCode": 0,
+                    "extendedName": null,
+                    "hasReverse": null,
+                    "reverseShortName": null,
+                    "schemeData": {
+                        "scheme": 150,
+                        "role": 0,
+                        "i_clsf": 0,
+                        "i_clsf0": 0,
+                        "f_rev_req": null,
+                        "f_norev": null
+                    }
+                },
+                "order": 1,
+                "customerCode": 1407625004.0,
+                "isExpired": false,
+                "startTimestamp": "2019-08-06T13:17:13.885Z",
+                "endTimestamp": "9999-12-31T23:59:59.999Z",
+                "categoryCode": "1"
+            },
+            "accountRelations": {
+                "accountRelation": {
+                    "customer": {
+                        "customerCode": 1407625004.0,
+                        "name": "ΣΕΒΑΣΤΙΔΗΣ ΠΕΡΙΚΛΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ",
+                        "branch": {
+                            "code": "0080",
+                            "name": "ΟΔ. ΣΤΑΔΙΟΥ 38",
+                            "controllingCenter": "57",
+                            "controllingCenterDescription": "ΚΑΤΑΣΤΗΜΑ ΠΕΛΑΤΕΙΑΣ ΣΥ.ΔΙ.ΠΕΛ.",
+                            "type": "06",
+                            "typeDescription": "ΚΑΤΑΣΤΗΜΑ"
+                        },
+                        "type": "ΦΠ",
+                        "activityStatus": "O",
+                        "activityStatusDescription": "ΕΝΕΡΓΟΣ",
+                        "completenessStatus": "K",
+                        "completenessStatusDescription": "ΠΛΗΡΗ ΣΤΟΙΧΕΙΑ",
+                        "dateBirth": "27/09/1962",
+                        "dateEstablished": "      ",
+                        "deleted": false,
+                        "docNo": "ΑΖ563984",
+                        "docType": "ΑΣΤΥΝΟΜΙΚΗ ΤΑΥΤΟΤΗΤΑ",
+                        "nomicalForm": null,
+                        "taxNo": "102948926",
+                        "SSN": "06029502498",
+                        "iBankUserID": null,
+                        "iBankCompanyID": null,
+                        "cashCardView": []
+                    },
+                    "type": {
+                        "code": 15000001.0,
+                        "shortName": "ΚΑΤΟΧ",
+                        "name": "ΚΑΤΟΧΟΣ",
+                        "relatedSchemeCode": 0,
+                        "extendedName": null,
+                        "hasReverse": null,
+                        "reverseShortName": null,
+                        "schemeData": {
+                            "scheme": 150,
+                            "role": 0,
+                            "i_clsf": 0,
+                            "i_clsf0": 0,
+                            "f_rev_req": null,
+                            "f_norev": null
+                        }
+                    },
+                    "order": 1,
+                    "startTimestamp": "2019-08-06T13:17:13.885Z",
+                    "endTimestamp": "9999-12-31T23:59:59.999Z",
+                    "isExpired": false
+                },
+                "customerAddresses": [
+                    {
+                        "uid": "aj4Aha3Rt9e1vP4PV77DOh==",
+                        "id": 5233559699.0,
+                        "type": {
+                            "code": 2700001.0,
+                            "shortName": "ΤΧΔΝΣ",
+                            "name": "ΤΑΧΥΔΡΟΜΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+                            "relatedSchemeCode": null,
+                            "extendedName": null,
+                            "hasReverse": null,
+                            "reverseShortName": null,
+                            "schemeData": null
+                        },
+                        "use": {
+                            "code": 1500006.0,
+                            "shortName": "ΕΝΑΛΛ",
+                            "name": "ΕΝΑΛΛΑΚΤΙΚΗ",
+                            "relatedSchemeCode": 0,
+                            "extendedName": null,
+                            "hasReverse": null,
+                            "reverseShortName": null,
+                            "schemeData": {
+                                "scheme": 15,
+                                "role": 3200006,
+                                "i_clsf": 2500001,
+                                "i_clsf0": 2700001,
+                                "f_rev_req": null,
+                                "f_norev": null
+                            }
+                        },
+                        "duration": {
+                            "primary": "X",
+                            "temporary": "",
+                            "seasonal": ""
+                        },
+                        "attentionTo": null,
+                        "endDate": "9999-12-31T00:00:00.000Z",
+                        "isExpired": false,
+                        "startDate": "2013-02-16T00:00:00.000Z",
+                        "withCare": null,
+                        "simpleAddress": "ΔΕΚΕΛΕΙΑΣ 25",
+                        "periodStart": null,
+                        "periodEnd": null,
+                        "details": {
+                            "localAddress": {
+                                "country": "ΕΛΛΑΔΑ",
+                                "region": "ΑΘΗΝΑ",
+                                "city": "ΑΘΗΝΑ",
+                                "addressRoadType": null,
+                                "address": "ΔΕΚΕΛΕΙΑΣ 26",
+                                "addressNo": null,
+                                "zip": {
+                                    "code": 99999001228.0,
+                                    "shortName": "Z000045",
+                                    "name": "ΑΘΗΝΑ",
+                                    "zipCode": "11141"
+                                },
+                                "fullAddress": "ΔΕΚΕΛΕΙΑΣ 26,,ΑΘΗΝΑ,11141,ΑΘΗΝΑ"
+                            },
+                            "foreignAddress": null,
+                            "postOfficeAddress": null,
+                            "postBoxAddress": null
+                        },
+                        "version": 1,
+                        "creationAudit": {
+                            "user": "MIGETHN@",
+                            "branch": "942",
+                            "workstation": "MIG1",
+                            "timestamp": "2013-02-16T09:52:17.000Z"
+                        },
+                        "updateAudit": {
+                            "user": "MIGETHN@",
+                            "branch": "942",
+                            "workstation": "MIG1",
+                            "timestamp": "2013-02-16T09:52:17.000Z"
+                        },
+                        "satIndicator": false
+                    }
+                ],
+                "creationAudit": {
+                    "user": "E88208",
+                    "branch": "080",
+                    "workstation": "W008000418",
+                    "timestamp": "2019-08-06T13:17:13.885Z"
+                },
+                "updateAudit": {
+                    "user": "E88208",
+                    "branch": "080",
+                    "workstation": "W008000418",
+                    "timestamp": "2019-08-06T13:17:13.885Z"
+                }
+            }
+        },
+        {
+            "account": {
+                "number": "66861605732",
+                "numberFormated": "668/616057-32",
+                "numberNoCD": "6686160573",
+                "service": {
+                    "code": 15100002.0,
+                    "shortName": "ΚΑΤΣΥ",
+                    "name": "ΣΥΝΑΛΛΑΓΜΑ ΚΑΤΑΘΕΣΕΙΣ",
+                    "relatedSchemeCode": 0,
+                    "extendedName": null,
+                    "hasReverse": null,
+                    "reverseShortName": null,
+                    "schemeData": {
+                        "scheme": 151,
+                        "role": 0,
+                        "i_clsf": 0,
+                        "i_clsf0": 0,
+                        "f_rev_req": null,
+                        "f_norev": null
+                    }
+                },
+                "branch": "668",
+                "currency": "CAD",
+                "product": "ΚΑΤΑΘΕΣΕΙΣ ΤΑΜΙΕΥΤΗΡΙΟΥ ΚΑΤΟΙΚΩΝ ΕΛΛΑΔΟΣ ΜΟΝΙΜΟΙ ΚΑΤΟΙΚΟΙ ΕΛΛΑΔΟΣ",
+                "category": "ΤΑΜΙΕΥΤΗΡΙΟ",
+                "relation": {
+                    "code": 15000001.0,
+                    "shortName": "ΚΑΤΟΧ",
+                    "name": "ΚΑΤΟΧΟΣ",
+                    "relatedSchemeCode": 0,
+                    "extendedName": null,
+                    "hasReverse": null,
+                    "reverseShortName": null,
+                    "schemeData": {
+                        "scheme": 150,
+                        "role": 0,
+                        "i_clsf": 0,
+                        "i_clsf0": 0,
+                        "f_rev_req": null,
+                        "f_norev": null
+                    }
+                },
+                "order": 1,
+                "customerCode": 1246432501.0,
+                "isExpired": false,
+                "startTimestamp": "2019-08-06T13:17:13.885Z",
+                "endTimestamp": "9999-12-31T23:59:59.999Z",
+                "categoryCode": "1"
+            },
+            "accountRelations": {
+                "accountRelation": {
+                    "customer": {
+                        "customerCode": 1246432501.0,
+                        "name": "ΣΕΒΑΣΤΙΔΗΣ ΑΓΑΜΕΜΝΟΝΑΣ ΚΩΝΣΤΑΝΤΙΝΟΣ",
+                        "branch": {
+                            "code": "0080",
+                            "name": "ΟΔ. ΣΤΑΔΙΟΥ 38",
+                            "controllingCenter": "57",
+                            "controllingCenterDescription": "ΚΑΤΑΣΤΗΜΑ ΠΕΛΑΤΕΙΑΣ ΣΥ.ΔΙ.ΠΕΛ.",
+                            "type": "06",
+                            "typeDescription": "ΚΑΤΑΣΤΗΜΑ"
+                        },
+                        "type": "ΦΠ",
+                        "activityStatus": "O",
+                        "activityStatusDescription": "ΕΝΕΡΓΟΣ",
+                        "completenessStatus": "K",
+                        "completenessStatusDescription": "ΠΛΗΡΗ ΣΤΟΙΧΕΙΑ",
+                        "dateBirth": "27/09/1962",
+                        "dateEstablished": "      ",
+                        "deleted": false,
+                        "docNo": "ΑΖ563984",
+                        "docType": "ΑΣΤΥΝΟΜΙΚΗ ΤΑΥΤΟΤΗΤΑ",
+                        "nomicalForm": null,
+                        "taxNo": "102948926",
+                        "SSN": "06029502498",
+                        "iBankUserID": null,
+                        "iBankCompanyID": null,
+                        "cashCardView": []
+                    },
+                    "type": {
+                        "code": 15000001.0,
+                        "shortName": "ΚΑΤΟΧ",
+                        "name": "ΚΑΤΟΧΟΣ",
+                        "relatedSchemeCode": 0,
+                        "extendedName": null,
+                        "hasReverse": null,
+                        "reverseShortName": null,
+                        "schemeData": {
+                            "scheme": 150,
+                            "role": 0,
+                            "i_clsf": 0,
+                            "i_clsf0": 0,
+                            "f_rev_req": null,
+                            "f_norev": null
+                        }
+                    },
+                    "order": 1,
+                    "startTimestamp": "2019-08-06T13:17:13.885Z",
+                    "endTimestamp": "9999-12-31T23:59:59.999Z",
+                    "isExpired": false
+                },
+                "customerAddresses": [
+                    {
+                        "uid": "aj4Aha3Rt9e1vP4PV77DOh==",
+                        "id": 5233559699.0,
+                        "type": {
+                            "code": 2700001.0,
+                            "shortName": "ΤΧΔΝΣ",
+                            "name": "ΤΑΧΥΔΡΟΜΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+                            "relatedSchemeCode": null,
+                            "extendedName": null,
+                            "hasReverse": null,
+                            "reverseShortName": null,
+                            "schemeData": null
+                        },
+                        "use": {
+                            "code": 1500006.0,
+                            "shortName": "ΕΝΑΛΛ",
+                            "name": "ΕΝΑΛΛΑΚΤΙΚΗ",
+                            "relatedSchemeCode": 0,
+                            "extendedName": null,
+                            "hasReverse": null,
+                            "reverseShortName": null,
+                            "schemeData": {
+                                "scheme": 15,
+                                "role": 3200006,
+                                "i_clsf": 2500001,
+                                "i_clsf0": 2700001,
+                                "f_rev_req": null,
+                                "f_norev": null
+                            }
+                        },
+                        "duration": {
+                            "primary": "X",
+                            "temporary": "",
+                            "seasonal": ""
+                        },
+                        "attentionTo": null,
+                        "endDate": "9999-12-31T00:00:00.000Z",
+                        "isExpired": false,
+                        "startDate": "2013-02-16T00:00:00.000Z",
+                        "withCare": null,
+                        "simpleAddress": "ΔΕΚΕΛΕΙΑΣ 25",
+                        "periodStart": null,
+                        "periodEnd": null,
+                        "details": {
+                            "localAddress": {
+                                "country": "ΕΛΛΑΔΑ",
+                                "region": "ΑΘΗΝΑ",
+                                "city": "ΑΘΗΝΑ",
+                                "addressRoadType": null,
+                                "address": "ΔΕΚΕΛΕΙΑΣ 26",
+                                "addressNo": null,
+                                "zip": {
+                                    "code": 99999001228.0,
+                                    "shortName": "Z000045",
+                                    "name": "ΑΘΗΝΑ",
+                                    "zipCode": "11141"
+                                },
+                                "fullAddress": "ΔΕΚΕΛΕΙΑΣ 26,,ΑΘΗΝΑ,11141,ΑΘΗΝΑ"
+                            },
+                            "foreignAddress": null,
+                            "postOfficeAddress": null,
+                            "postBoxAddress": null
+                        },
+                        "version": 1,
+                        "creationAudit": {
+                            "user": "MIGETHN@",
+                            "branch": "942",
+                            "workstation": "MIG1",
+                            "timestamp": "2013-02-16T09:52:17.000Z"
+                        },
+                        "updateAudit": {
+                            "user": "MIGETHN@",
+                            "branch": "942",
+                            "workstation": "MIG1",
+                            "timestamp": "2013-02-16T09:52:17.000Z"
+                        },
+                        "satIndicator": false
+                    }
+                ],
+                "creationAudit": {
+                    "user": "E88208",
+                    "branch": "080",
+                    "workstation": "W008000418",
+                    "timestamp": "2019-08-06T13:17:13.885Z"
+                },
+                "updateAudit": {
+                    "user": "E88208",
+                    "branch": "080",
+                    "workstation": "W008000418",
+                    "timestamp": "2019-08-06T13:17:13.885Z"
+                }
+            }
+        }
+    ],
+    "AccountServices": [
+        {
+            "code": 15100001.0,
+            "shortName": "ΚΑΤΕΥ",
+            "name": "ΕΥΡΩ ΚΑΤΑΘΕΣΕΙΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100002.0,
+            "shortName": "ΚΑΤΣΥ",
+            "name": "ΣΥΝΑΛΛΑΓΜΑ ΚΑΤΑΘΕΣΕΙΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100003.0,
+            "shortName": "ΠΡΟΙΡ",
+            "name": "ΠΡΟΘΕΣΜΙΑΚΕΣ (ΙΡΙΣ) ΚΑΤΑΘΕΣΕΙΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100004.0,
+            "shortName": "ΕΠΙΧΡ",
+            "name": "ΕΠΙΧΕΙΡΗΜΑΤΙΚΕΣ ΧΡΗΜΑΤΟΔΟΤΗΣΕΙΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100005.0,
+            "shortName": "ECASH",
+            "name": "ΧΡΕΩΣΤΙΚΕΣ ΚΑΡΤΕΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100006.0,
+            "shortName": "ΔΑΝΙΡ",
+            "name": "ΔΑΝΕΙΑ ΙΡΙΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100007.0,
+            "shortName": "ΠΙΣΚΑ",
+            "name": "ΠΙΣΤΩΤΙΚΕΣ ΚΑΡΤΕΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100008.0,
+            "shortName": "ΕΓΓΕΠ",
+            "name": "ΕΓΓΥΗΤΙΚΕΣ ΕΠΙΣΤΟΛΕΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100009.0,
+            "shortName": "IRSCR",
+            "name": "IRIS CREDITS",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100010.0,
+            "shortName": "ΛΓΕΥΡ",
+            "name": "ΛΟΓΙΣΤΙΚΗ ΕΥΡΩ ΛΟΓΑΡΙΑΣΜΟΙ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100011.0,
+            "shortName": "ΛΓΣΥΝ",
+            "name": "ΛΟΓΙΣΤΙΚΗ ΣΥΝΑΛΛΑΓΜΑ ΛΟΓΑΡΙΑΣΜΟΙ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100012.0,
+            "shortName": "ΕΠΔΙΡ",
+            "name": "ΕΠΙΔΟΤΗΣΕΙΣ IRIS",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100013.0,
+            "shortName": "ΔΦΡΙΡ",
+            "name": "ΔΙΑΦΟΡΑ IRIS",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100014.0,
+            "shortName": "ΕΠΑΚ",
+            "name": "ΕΠΕΝΔΥΤΙΚΑ : Α/Κ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100015.0,
+            "shortName": "ΕΠΧΡΗ",
+            "name": "ΕΠΕΝΔΥΤΙΚΑ : ΧΡΗΜΑΤΙΣΤΗΡΙΑΚΑ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100016.0,
+            "shortName": "ΕΠΑΥΛ",
+            "name": "ΕΠΕΝΔΥΤΙΚΑ : ΑΥΛΟΙ ΤΙΤΛΟΙ - ΕΠΕΑΚ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100017.0,
+            "shortName": "ΕΠΧΑΡ",
+            "name": "ΕΠΕΝΔΥΤΙΚΟ ΧΑΡΤΟΦΥΛΑΚΙΟ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 15100019.0,
+            "shortName": "ΔΙΑΔΔ",
+            "name": "ΔΙΑΚΑΝΟΝΙΣΜΟΣ ΔΑΝΕΙΟΥ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 151,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        }
+    ],
+    "AddressUses": [
+        {
+            "code": 1500001.0,
+            "shortName": "ΕΡΓΑΣ",
+            "name": "ΕΡΓΑΣΙΑΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 15,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 1500002.0,
+            "shortName": "ΚΑΤΚΣ",
+            "name": "ΚΑΤΟΙΚΙΑΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 15,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 1500003.0,
+            "shortName": "ΕΠΙΚΝ",
+            "name": "ΕΠΙΚΟΙΝΩΝΙΑΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 15,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 1500004.0,
+            "shortName": "ΕΔΡΑΣ",
+            "name": "ΕΔΡΑΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 15,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 1500005.0,
+            "shortName": "ΑΤΕΠΧ",
+            "name": "ΕΔΡΑΣ ΑΤΟΜΙΚΗΣ ΕΠΙΧΕΙΡΗΣΗΣ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 15,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        },
+        {
+            "code": 1500006.0,
+            "shortName": "ΕΝΑΛΛ",
+            "name": "ΕΝΑΛΛΑΚΤΙΚΗ",
+            "relatedSchemeCode": 0,
+            "extendedName": null,
+            "hasReverse": null,
+            "reverseShortName": null,
+            "schemeData": {
+                "scheme": 15,
+                "role": 0,
+                "i_clsf": 0,
+                "i_clsf0": 0,
+                "f_rev_req": null,
+                "f_norev": null
+            }
+        }
+    ]
+}</value>
+  </data>
 </root>

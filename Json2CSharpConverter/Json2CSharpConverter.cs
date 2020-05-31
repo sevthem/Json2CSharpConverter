@@ -16,7 +16,7 @@ namespace codeGenerator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            outputTextBox.Text = JsonCSharpConvertion.ConvertA(richTextBox1.Text);
+            outputTextBox.Text = JsonCSharpConvertion.Convert(richTextBox1.Text);
           
         }
 

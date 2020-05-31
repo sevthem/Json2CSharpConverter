@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Pluralize.NET.Core;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 
@@ -115,12 +117,12 @@ namespace Json2CSharpLib
             return output.ToString();
         }
 
-        public static string ConvertA(string text)
+        public static string ConvertCore(string text)
         {
             try
             {
                 var jObject = JsonConvert.DeserializeObject<dynamic>(text.Trim());
-                return GetString(jObject); 
+                return GetString(jObject);
             }
             catch (Exception)
             {
@@ -131,9 +133,16 @@ namespace Json2CSharpLib
                 }
                 catch (Exception)
                 {
+                    try
+                    {
+                        var jObject = JsonConvert.DeserializeObject<dynamic>("{" + text.Trim());
+                        return GetString(jObject);
+                    }
+                    catch (Exception)
+                    {
+                        throw;
+                    }
 
-                    var jObject = JsonConvert.DeserializeObject<dynamic>("{" + text.Trim());
-                    return GetString(jObject);
                 }
             }
         }
@@ -196,28 +205,28 @@ namespace Json2CSharpLib
         }
 
         private static string GetStringFromDate(JValue jObject)
-        {            
+        {
             return GetIntent(GetClassNum(jObject)) + jObject.Parent.ToString().Split(new string[] { "\":" }, StringSplitOptions.RemoveEmptyEntries)[1].Trim().GetDate();
         }
 
         private static string GetStringFromBoolean(JValue jObject)
         {
-            return GetIntent(GetClassNum(jObject)) + "\"" + jObject.Value.ToString().ToLower() + "\"";
+            return GetIntent(GetClassNum(jObject)) + jObject.Value.ToString().ToLower();
         }
 
         private static string GetStringFromNull(JValue jObject)
-        {            
+        {
             return GetIntent(GetClassNum(jObject)) + "null";
         }
 
         private static string GetStringFromFloat(JValue jObject)
         {
-            return GetIntent(GetClassNum(jObject)) + jObject?.Value.ToString();
+            return GetIntent(GetClassNum(jObject)) + jObject?.Value.ToString() + "m";
         }
 
         private static string GetStringFromInterger(JValue jObject)
         {
-           return GetIntent(GetClassNum(jObject)) + jObject?.Value.ToString();
+            return GetIntent(GetClassNum(jObject)) + jObject?.Value.ToString();
         }
 
         private static string GetStringFromString(JValue jObject)
@@ -274,7 +283,7 @@ namespace Json2CSharpLib
 
             var propertyName = jObject.Name.ClearPropertyName();
             var propertyValue = GetString(jObject.Value);
-            
+
 
             var newLine = $"{GetIntent(classNum)}{propertyName} = {propertyValue}";
             outputStringBuilder.Append(newLine);
@@ -288,9 +297,9 @@ namespace Json2CSharpLib
             string output;
             var outputStringBuilder = new StringBuilder();
             var classNum = GetClassNum(jObject);
-           
+
             var propertyName = jObject.Path.Split(new string[] { "." }, StringSplitOptions.None)?.Last()?.ClearPropertyName();
-            var className = propertyName;
+            var className = GetClassName(jObject, propertyName); ;
 
             if (string.IsNullOrWhiteSpace(className))
             {
@@ -322,9 +331,7 @@ namespace Json2CSharpLib
             return output;
         }
 
-
-
-        private static object GetClassName(JArray jObject, string propertyName)
+        private static string GetClassName(JToken jObject, string propertyName)
         {
             if (jObject.Children().Count() > 0 && jObject.Children().First() is JValue)
             {
@@ -332,8 +339,47 @@ namespace Json2CSharpLib
             }
             else
             {
-                return string.IsNullOrEmpty(propertyName)? "Objects" : propertyName;
+                if (propertyName.Contains("Audit"))
+                {
+                    return "AuditData";
+                }
+
+                if (jObject.Children().Any() && jObject.Children().First() is JProperty && jObject.Children().Any(x => (x as JProperty)?.Name == "schemeData"))
+                {
+                    return "Classification";
+                }
+                else if (jObject.Children().Any() && jObject.Children().First() is JToken && jObject.Children().First().Children().First() is JProperty && jObject.Children().First().Children().Any(x => (x as JProperty)?.Name == "schemeData"))
+                {
+                    return "Classification";
+                }              
+                return Singularize(string.IsNullOrEmpty(propertyName) ? "Objects" : propertyName);
             }
+        }
+
+        private static string Singularize(string value)
+        {
+            if (value.EndsWith("List"))
+            {
+                return value.Substring(0, value.Length - 4);
+            }
+
+            if (value.EndsWith("Data"))
+            {
+                return value;
+            }
+         
+
+            for (int i = 1; i < value.Length; i++)
+            {
+                if (char.IsUpper(value[i]))
+                {
+                    var firstWord = value.Substring(0, i);
+                    var lastWord = Singularize(value.Substring(i, value.Length - i));
+                    return firstWord + lastWord;
+                }
+            }
+
+            return new Pluralizer().Singularize(value);
         }
 
         private static int GetClassNum(JToken jObject)
@@ -342,7 +388,7 @@ namespace Json2CSharpLib
             var classNum = pathEntries.Length;
             if (pathEntries.Length > 0)
             {
-                classNum+= pathEntries.Count(x => x.Contains("["));
+                classNum += pathEntries.Count(x => x.Contains("["));
             }
 
             if (!(jObject.Parent is JArray) && jObject is JValue)

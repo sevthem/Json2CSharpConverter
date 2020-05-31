@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Json2CSharpConverter));
             this.outputTextBox = new System.Windows.Forms.TextBox();
             this.ConvertButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -87,9 +88,7 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(871, 158);
             this.richTextBox1.TabIndex = 5;
-            this.richTextBox1.Text = "[\n\t\t{\n\t\t\t\"Username\": \"User1\",\n\t\t\t\"ProviderId\": \"NBG.gr\",\n\t\t\t\"Provider\": \"NBG\"\n\t\t}" +
-    ",\n\t\t{\n\t\t\t\"Username\": \"User2\",\n\t\t\t\"ProviderId\": \"NBG.gr\",\n\t\t\t\"Provider\": \"NBG\"\n\t\t" +
-    "}\n\t]\n";
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
             // Json2CSharpConverter
             // 
